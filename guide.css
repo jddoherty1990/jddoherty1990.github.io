@@ -1,0 +1,106 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+    .invisible {
+      display: none;
+    }
+    html {
+      height: 100%;
+    }
+    body {
+
+       width: 800px;
+       height: 100%;
+       margin: 0 auto;
+    }
+    p1 {
+      font-family: sans-serif;
+    }
+    a {
+      font-family: sans-serif;
+      color: black;
+
+      font-weight: bolder;
+      font-size: 19px;
+    }
+    h2 {
+      font-family: sans-serif;
+    }
+    article {
+      position: relative;
+    }
+    header {
+        background-color: black;
+        background-blend-mode: lighten;
+
+        background-size: 800px;
+        height: 150px;
+        background-position: center;
+        padding: 5px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: sans-serif;
+        display: block;
+    }
+    img {
+      height: 20%;
+    }
+    nav {
+        float: left;
+    }
+    nav ul {
+        padding: ;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: ;
+    }
+    #randoLink {
+
+      text-align: center;
+
+    }
+
+    #image {
+      size: 20%
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        position: align;
+        background-color: white;
+        color:black;
+        font-family: sans-serif;
+        clear: both;
+        display: block;
+}
+
+  script.img {
+    size: 20%;
+  }

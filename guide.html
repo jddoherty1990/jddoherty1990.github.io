@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>
+      The Seattle Traffic 8-Ball
+    </title>
+    <link href="guide.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+
+      <h1>
+        The Seattle Traffic 8-ball
+      </h1>
+
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html";>Home</a>
+        </li>
+        <li>
+          <a href="guide.html";>Guide</a>
+        </li>
+      </ul>
+    </nav>
+  </br>
+  </br>
+    <a id="randoLink">hambo</a>
+
+
+
+  </br>
+      <article class="invisible" id="great";>
+          <h2> Ooh heaven is a place on Earth</h2>
+          <p1>How did you manage this? You've chosen the perfect day for a Seattle commute. The stars have aligned and it seems that not only is the weather bright and clear, but the freeways are as well. How you even chose this day at all is a cosmic mystery. The lack of traffic, clear weather, perfect road conditions and lack of police means you can speed as if you're on the autobahn. Feel like going 200mph? Go for it. With this kind of luck you should consider buying a lottery ticket after your visit to Seattle. </p1>
+          <img id="image" src="Open.jpg">
+          <p>Image credit: <a href="https://www.shutterstock.com/video/clip-9463430-stock-footage-hd-time-lapse-footage-of-a-sunset-in-seattle-with-freeway-traffic.html">Justin Horrocks</a></p>
+        </article>
+
+      <article class="invisible" id = "good";>
+        <h2> The Average Commute </h2>
+        <p1> Roads have moderate traffic, weather's fine, and it's a nice ride, baby. Turn on your favorite throwback jam and ride! <br/> You might be driving low and slow for a while, so bring your breakfast on the road, muchacho. But dont worry honeybooboo, you'll make it to work on time.</p1>
+      </br>
+        <img id="image" src = "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fstatic.panoramio.com%2Fphotos%2Flarge%2F16731816.jpg&f=1";>
+        <br/>
+
+      </article>
+
+      <article class="invisible" id = "bad";>
+        <h2>Hey, it'd be easier to walk, pal.</h2>
+        <p1>Traffic is backed up at least a mile, guy. The droning cacophany of car horns is echoing through the city, must be a pretty big event or something going on here, buddy.<br/> While we're at it, it might interest you to consider some more eco-friendly transportation options, like bikes or heelys or something, whatever floats your boat, kid.</p1>
+      </br>
+        <img id="image" src = "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.vacationbaliindonesia.com%2Fwp-content%2Fuploads%2F2014%2F06%2FJakarta-traffic-jam.jpg&f=1";>
+        <br/>
+
+      </article>
+
+      <article class="invisible" id="terrible";>
+            <h2> Good God, consider living on another planet.</h2>
+          <p1>It looks like you've happened upon the absolute worst conditions humanly possible for a Seattle commute. This isn't a rare occurrence, you're just extremely unlucky to have planets align for this unspeakable catastrophe. Traffic is beyond unspeakable. The only comparison you can make is to Jakarta, Indonesia. Don't even consider leaving your vehicle; there's so little room that not even microbes could make it through. The weather is so horrifying that you could swear you were in a Roland Emmerich movie. Rain is insurmountable and the destination of your commute is now a small ocean. Mt. Rainier has decided that today is the day for a show, the fault lines have all gone at once, and there are mass protests for absolutely everything in the current American political scene happening all at the same time throughout the city. The only place you will reach on this commute is your grave. Move to another planet. </p1>
+          <img id="image" src="needlecrash.jpg">
+          <p>Image credit: <a href="https://www.reddit.com/r/pics/comments/rm2yl/space_needle_destroyed_by_imperialist_scum/">Reddit User Udub9</a></p>
+      </article>
+
+      <script type="text/javascript">
+        var randoLink = document.getElementById("randoLink");
+        var articleArray = document.querySelectorAll("article");
+        randoLink.onclick = function() {
+          articleArray.forEach(function(e){
+            e.classList.add("invisible");
+          });
+          var index = Math.floor(Math.random() * articleArray.length);
+          articleArray[index].classList.remove("invisible");
+        };
+      </script>
+      <footer>
+        <p>This is in no way an accurate traffic checker and should not be used to determine traffic conditions. All Rights Reserved. Hambo.</p>
+      </footer>
+  </body>
+</html>
